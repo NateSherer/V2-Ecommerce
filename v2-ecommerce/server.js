@@ -8,10 +8,11 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 const connection = mysql2.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "password",
-  database: "ThriftTech",
+  host: "sql5.freesqldatabase.com",
+  user: "sql5760051",
+  password: "nHVH3eTqTc",
+  database: "sql5760051",
+  port: "3306"
 });
 
 connection.connect((err) => {
@@ -22,11 +23,6 @@ connection.connect((err) => {
   }
 });
 
-
-
-app.get('/', (req, res) => {
-  res.send('h1')
-})
 
 // Creating our conection for when we fetch our data
 // A file path for requesting the data
