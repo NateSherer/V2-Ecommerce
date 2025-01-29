@@ -7,7 +7,7 @@ const [products, setProducts] = useState([]);
 const [filteredProducts, setFilteredProducts] = useState([]);
 
 useEffect(() => {
-    fetch("http://localhost:3305/api/products")
+    fetch("https://v2-ecommerce.onrender.com/api/products")
     .then((response) => response.json())
     .then((data) => {
         setProducts(data);
