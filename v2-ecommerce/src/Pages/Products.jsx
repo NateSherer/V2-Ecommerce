@@ -54,7 +54,7 @@ export default function Products() {
       <div className="products">
         {filteredProducts.map((product) => (
           <div className="product-card" key={product.id}>
-            <img src={`../Public/${product.photo}`} alt={product.name} />
+            <img src={`${product.photo}`} alt={product.name} />
             <h3>{product.name}</h3>
             <p>{product.description}</p>
             <p>Price: ${product.price}</p>
