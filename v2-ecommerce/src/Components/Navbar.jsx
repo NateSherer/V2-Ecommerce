@@ -11,7 +11,7 @@ const Navbar = () => {
                 <li><a href="/products">Products</a></li>
             </ul>
         </nav>
-    );
+    )
 }
 
 
