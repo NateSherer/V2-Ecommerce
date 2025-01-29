@@ -22,6 +22,12 @@ connection.connect((err) => {
   }
 });
 
+
+
+app.get('/', (req, res) => {
+  res.send('h1')
+})
+
 // Creating our conection for when we fetch our data
 // A file path for requesting the data
 app.get("/api/products", (req, res) => {
