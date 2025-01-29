@@ -1,19 +1,20 @@
 import React from "react";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav>
-      <img src="Public/Img/ThriftTech.jpg" alt="ThriftTech Logo" />
+      <img src="/Img/ThriftTech.jpg" alt="ThriftTech Logo" />
       <ul>
         <li>
-          <a href="/">Homepage</a>
+          <NavLink to="/">Homepage</NavLink>
         </li>
         <li>
-          <a href="/form">Contact</a>
+          <NavLink to="/form">Contact</NavLink>
         </li>
         <li>
-          <a href="/products">Products</a>
+          <NavLink to="/products">Products</NavLink>
         </li>
       </ul>
     </nav>
