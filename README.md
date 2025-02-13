@@ -1,4 +1,4 @@
-##Project Overview 
+## Project Overview 
 
 
 Welcome to Thrift Tech, a website for Apple products sold for a reasonable price, made for the people!
